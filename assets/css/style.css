@@ -74,3 +74,23 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .hour {
+    border-top: none;
+    height: 40px;
+  }
+
+  .past, .present, .future {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .past, .present, .future, .saveBtn {
+    height: 80px;
+  }
+
+  .row {
+    height: 120px;
+  }
+}
