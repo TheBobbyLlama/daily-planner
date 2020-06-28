@@ -21,6 +21,10 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+.container {
+  margin: 80px;
+}
+
 .description{
   white-space: pre-wrap;
 }
